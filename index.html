@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This app simulates when your parental unit is really mad at you">
+    	<meta name="keywords" content="mom, dad, yell">
+
+		<title>GHD Incident Notes Template Creator</title>
+		<!-- external fonts link -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<h1>GHD Incident Template</h1>
+		<main>
+			<form>
+				<section>
+					<div id="line">
+						<label for="tmid"> TMID: </label>
+						<input id="tmid" type="text" placeholder="TMID">
+					</div>
+					<div id="line">
+						<label for="name"> Name: </label>
+						<input id="name" type="text" placeholder="Name">
+					</div>
+					<div id="line">
+						<label for="telephone"> Telephone: </label>
+						<input id="telephone" type="text" placeholder="Telephone">
+					</div>
+					<div id="line">
+						<label for="location"> Location: </label>
+						<input id="location" type="text" placeholder="Location">
+					</div>
+					<div id="line">
+						<label for="tag"> Tag: </label>
+						<input id="tag" type="text" placeholder="Tag">
+					</div>
+				</section>
+				<span>-------------------------------------------</span>
+				<section>
+					<div id="line">
+						<label for="problem"> Problem: </label>
+						<textarea id="problem" type="text" placeholder="Problem"></textarea>
+					</div>
+					<div id="line">
+						<label for="previous-tix"> Previous Tickets: </label>
+						<input id="previous-tix" type="text" placeholder="Previous Tickets">
+					</div>
+					<div id="line">
+						<label for="troubleshooting"> Troubleshooting: </label>
+						<textarea id="troubleshooting" type="text" placeholder="Troubleshooting"></textarea>
+					</div>
+					<div id="line">
+						<label for="next-steps"> Next Steps: </label>
+						<input id="next-steps" type="text" placeholder="Next steps">
+					</div>
+					<div id="line">
+						<label for="escalation"> Escalation: </label>
+						<input id="escalation" type="text" placeholder="Escalation">
+					</div>
+				</section>
+			</form>
+		</main>
+
+		<button id="create-notes" type="button" name="button">Create notes</button>
+
+		<p id="notes"></p>
+
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

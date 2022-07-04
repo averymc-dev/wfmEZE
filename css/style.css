@@ -1,0 +1,82 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  background-image: url('../img/marisol-benitez-QvkAQTNj4zk-unsplash.jpg');
+  background-size: cover;
+}
+h1{
+  text-align: center;
+  color: white;
+}
+button{
+  display: block;
+  margin: 20px auto;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+section {
+  width: 50%;
+}
+
+section *{
+  display: flex;
+}
+
+main {
+  border: 2px solid red;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: oldlace;
+  border-radius: 5px;
+}
+
+#line {
+  padding: 10px 0 5px 10px;
+  justify-content: center;
+}
+
+#notes {
+  border: 2px solid orangered;
+  background-color: aliceblue;
+  width: 60%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+input, textarea {
+  margin-left: 5px;
+}
+
+textarea {
+  width: 10px;
+  height: 100px;
+}
+
+section:first-of-type {
+  border: 2px solid gold;
+  width: 75%;
+}
+section:nth-of-type(2) {
+  border: 2px solid purple;
+  width: 75%;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
