@@ -19,57 +19,44 @@
 		<h1>GHD Incident Template</h1>
 		<main>
 			<form>
-				<section>
-					<div id="line">
-						<label for="tmid"> TMID: </label>
-						<input id="tmid" type="text" placeholder="TMID">
-					</div>
-					<div id="line">
-						<label for="name"> Name: </label>
-						<input id="name" type="text" placeholder="Name">
-					</div>
-					<div id="line">
-						<label for="telephone"> Telephone: </label>
-						<input id="telephone" type="text" placeholder="Telephone">
-					</div>
-					<div id="line">
-						<label for="location"> Location: </label>
-						<input id="location" type="text" placeholder="Location">
-					</div>
-					<div id="line">
-						<label for="tag"> Tag: </label>
-						<input id="tag" type="text" placeholder="Tag">
-					</div>
+				<section id="firstSect">
+					<label for="tmid"> TMID: </label>
+					<label for="name"> Name: </label>
+					<label for="telephone"> Telephone: </label>
+					<label for="location"> Location: </label>
+					<label for="tag"> Tag: </label>
 				</section>
-				<span>-------------------------------------------</span>
-				<section>
-					<div id="line">
-						<label for="problem"> Problem: </label>
-						<textarea id="problem" type="text" placeholder="Problem"></textarea>
-					</div>
-					<div id="line">
-						<label for="previous-tix"> Previous Tickets: </label>
-						<input id="previous-tix" type="text" placeholder="Previous Tickets">
-					</div>
-					<div id="line">
-						<label for="troubleshooting"> Troubleshooting: </label>
-						<textarea id="troubleshooting" type="text" placeholder="Troubleshooting"></textarea>
-					</div>
-					<div id="line">
-						<label for="next-steps"> Next Steps: </label>
-						<input id="next-steps" type="text" placeholder="Next steps">
-					</div>
-					<div id="line">
-						<label for="escalation"> Escalation: </label>
-						<input id="escalation" type="text" placeholder="Escalation">
-					</div>
+				<section id="secondSect">
+					<input id="tmid" type="text" placeholder="TMID">
+					<input id="name" type="text" placeholder="Name">
+					<input id="telephone" type="text" placeholder="Telephone">
+					<input id="location" type="text" placeholder="Location">
+					<input id="tag" type="text" placeholder="Tag">
+				</section>
+				
+				<span>----------------------------------------------------------------------------------------------------</span>
+
+				<section id="thirdSect">
+					<label for="problem"> Problem: </label>
+					<label for="previous-tix"> Previous Tickets: </label>
+					<label for="troubleshooting"> Troubleshooting: </label>
+					<label for="next-steps"> Next Steps: </label>
+					<label for="escalation"> Escalation: </label>
+				</section>
+				<section id="fourthSect">
+					<textarea id="problem" type="text" placeholder="Problem"></textarea>
+					<input id="previous-tix" type="text" placeholder="Previous Tickets">
+					<textarea id="troubleshooting" type="text" placeholder="Troubleshooting"></textarea>
+					<input id="next-steps" type="text" placeholder="Next steps">
+					<input id="escalation" type="text" placeholder="Escalation">
 				</section>
 			</form>
+			<button id="create-notes" type="button" name="button">Create notes</button>
 		</main>
 
-		<button id="create-notes" type="button" name="button">Create notes</button>
+		
 
-		<p id="notes"></p>
+		<p id="notes">Notes will appear here</p>
 
 
 		<script type="text/javascript" src="js/main.js"></script>
