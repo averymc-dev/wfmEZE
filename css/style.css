@@ -20,6 +20,11 @@ body {
 h1{
   text-align: center;
   color: white;
+  background-color: #196f46;
+  width: 50%;
+  margin: 15px auto;
+  border-radius: 5px;
+  border: 2px solid #df771c
 }
 button{
   display: block;
@@ -37,9 +42,6 @@ section {
   margin-top: 15px;
 }
 
-.section {
-  display: flex;
-}
 
 #firstSect *{
   display: flex;
@@ -62,22 +64,17 @@ section {
 }
 
 main {
-  border: 2px solid cornflowerblue;
+  border: 2px solid #df771c;
   width: 60%;
   margin: 25px auto;
   text-align: center;
-  background-color: oldlace;
+  background-color: #edf1f2;
   border-radius: 5px;
 }
 
-/* #line {
-  padding: 10px 0 5px 10px;
-  justify-content: center;
-} */
-
 #notes {
-  border: 2px solid mediumspringgreen;
-  background-color: aliceblue;
+  border: 2px solid #df771c;
+  background-color: #edf1f2;
   width: 60%;
   margin: 0 auto;
   padding: 15px;
