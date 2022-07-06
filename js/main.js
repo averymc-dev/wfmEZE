@@ -1,6 +1,8 @@
 document.querySelector('#create-notes').addEventListener('click', makeNotes)
 
 function makeNotes() {
+  const inputs = document.querySelectorAll('#tmid, #name, #telephone, #location, #tag, #problem, #previous-tix, #troubleshooting, #next-steps, #escalation')
+
   const id = document.querySelector('#tmid').value
   const name = document.querySelector('#name').value
   const telephone = document.querySelector('#telephone').value
@@ -13,4 +15,9 @@ function makeNotes() {
   const escalation = document.querySelector('#escalation').value
 
   document.querySelector('#notes').innerText = `TMID: ${id}\n NAME: ${name}\n TELEPHONE: ${telephone}\n LOCATION: ${location}\n TAG: ${tag}\n ----------------------------------------------------------------------------------------------------\n PROBLEM: ${problem}\n PREVIOUS TICKETS: ${prevTickets}\n TROUBLESHOOTING: ${troubleshoot}\n NEXT STEPS: ${nextSteps}\n ESCALATION: ${escalation}`
+
+  inputs.forEach(input => {
+    input.value = '';
+  });
+
 }
