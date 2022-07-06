@@ -12,5 +12,5 @@ function makeNotes() {
   const nextSteps = document.querySelector('#next-steps').value
   const escalation = document.querySelector('#escalation').value
 
-  document.querySelector('#notes').innerText = `TMID: ${id}\n Name: ${name}\n Telephone: ${telephone}\n Location: ${location}\n Tag: ${tag}\n ----------------------------------------------------------------------------------------------------\n Problem: ${problem}\n Previous Tickets: ${prevTickets}\n Troubleshooting: ${troubleshoot}\n Next Steps: ${nextSteps}\n Escalation: ${escalation}`// ${fMidName} ${lMidName} ${lName}`
+  document.querySelector('#notes').innerText = `TMID: ${id}\n NAME: ${name}\n TELEPHONE: ${telephone}\n LOCATION: ${location}\n TAG: ${tag}\n ----------------------------------------------------------------------------------------------------\n PROBLEM: ${problem}\n PREVIOUS TICKETS: ${prevTickets}\n TROUBLESHOOTING: ${troubleshoot}\n NEXT STEPS: ${nextSteps}\n ESCALATION: ${escalation}`
 }
